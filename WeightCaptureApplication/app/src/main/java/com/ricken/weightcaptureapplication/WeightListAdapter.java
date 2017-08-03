@@ -1,7 +1,6 @@
 package com.ricken.weightcaptureapplication;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -16,7 +15,7 @@ import com.ricken.weightcaptureapplication.database.object.Weight;
 import java.util.List;
 
 public class WeightListAdapter extends ArrayAdapter<Weight>{
-    private MainActivity mainActivity;
+    private final MainActivity mainActivity;
     public WeightListAdapter(MainActivity mainActivity, List<Weight> items){
         super(mainActivity, R.layout.item_weight, items);
         this.mainActivity = mainActivity;

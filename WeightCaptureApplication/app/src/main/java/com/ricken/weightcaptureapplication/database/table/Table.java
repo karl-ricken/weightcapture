@@ -1,7 +1,7 @@
 package com.ricken.weightcaptureapplication.database.table;
 
 public class Table {
-    private String name;
+    private final String name;
 
     public Table(String name){
         this.name = name;
