@@ -99,9 +99,11 @@ workspace.xml
 compiler.xml
 runConfigurations.xml
 **/.idea/libraries
-.idea/
+#.idea/
+copyright/
+WeightCaptureApplication/\.idea/*.xml
 local.properties
 
-# BA-Tutorial specific
-files/
+
+
 
