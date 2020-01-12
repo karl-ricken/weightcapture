@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeightCapture Application</string>
+    <string name="create_new">Neu</string>
+    <string name="scales">Waagen</string>
+    <string name="delete">Löschen</string>
+    <string name="delete_weight">Gewicht löschen</string>
+    <string name="new_scale">Neue Waage</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="description_delete">Element löschen</string>
+    <string name="added_element">Element hinzugefügt</string>
+    <string name="last_weight">Letztes Gewicht: </string>
+    <string name="kg">Kg</string>
+    <string name="inputNewWeight">Neues Gewicht:</string>
+</resources>
